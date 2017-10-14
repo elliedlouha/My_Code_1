@@ -1,6 +1,6 @@
 Bug myBug = new Bug();
 
-Bug[] allTheBugs = new Bug[4];
+Bug[] allTheBugs = new Bug[1];
 //initialize the Array for bugs, but not the bugs themselves
 
 void setup() {
