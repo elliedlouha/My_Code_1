@@ -49,7 +49,7 @@ void draw()
     lastTimeCheck = millis() ;
   }
   if (changeColor == true) {
-    float t = millis()/800.0f; //movement of fish
+    float t = millis()/600.0f; //movement of fish
 
     //first circle of fish
     for (int i = 1; i <= 12; i++) {
@@ -129,7 +129,7 @@ void draw()
       }
     }
   } else if (changeColor == false) {
-    float t = millis()/800.0f; //increase to slow down the movement
+    float t = millis()/600.0f; //increase to slow down the movement
     //first
     
     if ( millis() - lastTimeCheck > 100) {
